@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form>
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" value="Name" readonly>  
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="abc@abc.com">  
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">  
+        </div>
+
+        <div>
+            <label for="number">Number</label>
+            <input type="number" id="number" min="0" max="100">  
+        </div>
+
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" min="0" max="100" step="10">  
+        </div>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">  
+        </div>
+
+        <div>
+            <label for="color">Colour</label>
+            <input type="color" id="color">  
+        </div>
+
+        <div>
+            <label for="message">Text Area</label>
+            <br>
+            <textarea id="message"></textarea>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="None" selected>None</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Quantity</label>
+            <br>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 5
+            <input type="radio" name="work"> 10
+            <input type="radio" name="work"> 15
+            <input type="radio" name="work"> 20
+        </div>
+
+        <div>
+            <label>List</label>
+            <br>
+            <input type="checkbox" name="count"> First
+            <input type="checkbox" name="count"> Second
+            <input type="checkbox" name="count"> Third
+            <input type="checkbox" name="count"> Fourth
+            <input type="checkbox" name="count"> Fifth
+        </div>
+        <br>
+        
+        <input type="submit" value="Button">
+        <br>
+        <br>
+        <button type="submit">Send</button>
+    </form>
+    <hr>
+    <form>
+        <h1>Contact me</h1>
+        <br>
+        <div>
+            <label for="name-lesson">Name</label>
+            <input type="text" id="name-lesson" placeholder="Name">
+        </div>
+
+        <div>
+            <label for="email-lesson">Email</label>
+            <input type="email" id="email-lesson" placeholder="abc@abc.abc">
+        </div>
+
+        <div>
+            <label for="message-lesson">Message</label>
+            <br>
+            <textarea id="message" placeholder="Write here..."></textarea>
+        </div>
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
